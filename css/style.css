@@ -1,0 +1,269 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(68, 68, 70);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: black;
+}
+.navbar-list{
+    height: 8vh;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    list-style: none;
+
+}
+.navbar img{
+    width: 50px; height: auto;
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(48, 47, 47);
+    font-size: 2em;
+}
+
+.sec2{
+    margin-top: 10vh;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+.sec2 img {
+    width: 500px; height: auto;
+
+}
+.sec2right{
+    width: 30%;
+font-size: 2em;
+color: white;
+background: inherit;
+}
+#aboutus{
+    color: black;
+/**/
+}
+.sec3 {
+    margin-top: 50px;
+    background-image: url(https://miro.medium.com/max/1094/1*MCn1VrXQznTi3JMtAIGK0g.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40vh;
+    width: 100%;
+}
+
+.boxes {
+    margin-top: 50px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    padding-top: 100px;
+}
+.box {
+    background-color: rgb(170, 169, 169);
+    opacity: 0.8;
+    width: 300px;
+    height: 400px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 2em;
+    line-height: 20px;
+    box-shadow: 5px 5px gray;
+    transition: 2s;
+color: blueviolet;
+border-radius: 20px;
+}
+
+#tb{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+
+.box:hover{
+    outline: 5px solid rgb(94, 83, 248);
+    transition: 0.5s;
+    background-color: rgb(127, 139, 250);
+    border-radius: 20px;
+}
+.box img {
+    width: 100px;
+}
+.hr{
+    position: relative;
+    margin-top: 70px;
+
+    color: teal;
+}
+.bt {
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    background: rgb(204, 32, 204);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.earth{
+
+   
+    display: flex;
+    justify-content: space-between; 
+     text-align:center; 
+     width: 10px;
+         
+}
+.earth img{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    padding-left: 20px;
+    transition: 1s;
+    padding-top: 20px;
+}
+
+.earth img:hover{
+    transform: rotateY(180deg);
+
+}
+
+
+
+#img1{
+    height: 40vh;
+    width: 99%;
+    margin-top: 20px;
+    float: left;
+    padding: 0.5%;
+    padding-bottom: 0%;
+}
+#img2{
+    height: 80vh;
+    width: 20%;
+    float:left;
+    padding: 0.5%;
+    padding-right: 0%;
+   
+}
+#img3{
+    height: 40vh;
+    width: 39%;
+    padding: 0.5%;
+    float: left;
+    padding-right: 0%;
+}
+#img4{
+    height: 40vh;
+    width: 39%;
+    float: left;
+    padding: 0.5%;
+    padding-right: 0%;
+
+}
+#img5{
+    height: 39vh;
+    width: 78.5%;
+    
+    float: left;
+    padding: 0.5%;
+    padding-top: 0%;
+}
+
+.sec4 {
+    width: 100%; 
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+.feedback {
+    
+    background-color: inherit;
+    padding: 20px;
+    text-align: center;
+    /* border: 1px solid rgb(199, 13, 13); /* Gray border */
+   /* border-radius: 20px; /* Rounded borders */
+   /* border-radius: 5px; */
+    box-sizing: border-box;
+    width: 40%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(207, 55, 149);
+    font-size: large;
+    
+}
+
+.box-title {
+    background:none repeat scroll 0 0;
+    display: inline-block;
+    padding: 0 2px;
+    margin-left: 8em;
+}
+input[type=text], select, textarea {
+    width: 70%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(207, 55, 149); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: horizontal;
+    display: block;
+   background-color: rgba(153, 105, 135, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(252, 249, 249);
+    border-radius: 20px;
+
+}
+
+input[type=submit] {
+    background-color: rgb(207, 55, 149);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 200px;
+}
+input[type=submit]:hover {
+    background-color: rgb(207, 55, 149);
+  }
+
+  .field1{
+ width: auto;
+ background-color: rgb(131, 74, 74);
+ border-bottom-right-radius: 30px;
+ border-top-right-radius: 30px;
+  }
+  .field2{
+
+      height: 700px;
+   width: auto;
+   border-radius: 20px;    
+}
